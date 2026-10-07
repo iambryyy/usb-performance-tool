@@ -1,0 +1,3 @@
+# Runtime
+playwright>=1.40      # PDF export (drives the Edge/Chrome already on the PC)
+xlsxwriter>=3.1       # the Excel workbook and template

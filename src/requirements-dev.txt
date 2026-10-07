@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Packaging the single-file .exe (optional)
+pyinstaller>=6.0

@@ -1,0 +1,32 @@
+{
+  "version": "v1.0",
+  "algorithm": "sha256",
+  "content": "shake_256('<version>:<name>:<block index>') x size_mb 1 MiB blocks",
+  "files": [
+    {
+      "name": "small_1mb.bin",
+      "size_mb": 1,
+      "sha256": "21ebf46e6dfc40b1a3d73703144f019072f3178cf1ff9d785146f98c663576f2"
+    },
+    {
+      "name": "document_10mb.bin",
+      "size_mb": 10,
+      "sha256": "b5bc20beb8a5e1268d2af11563f5f0bf282e3645500b8a7f2f43ef36633ce9dd"
+    },
+    {
+      "name": "image_50mb.bin",
+      "size_mb": 50,
+      "sha256": "9aac4ddfaa54f609d46acf07e3ade31fb78dce61d92a6ae10405ddbf27e95938"
+    },
+    {
+      "name": "video_100mb.bin",
+      "size_mb": 100,
+      "sha256": "71f6d885fa5654a8c96b83fc0438793887f7087c074f5260385ffe2d3a8d10e1"
+    },
+    {
+      "name": "large_500mb.bin",
+      "size_mb": 500,
+      "sha256": "8beb33b5a9ad90b58905b19f73b51a10cfb336333a872600941a349ff40cdaa4"
+    }
+  ]
+}

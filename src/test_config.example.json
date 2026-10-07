@@ -1,0 +1,73 @@
+{
+  "project_name": "USB Performance Test",
+  "usb_share_path": "\\\\192.168.1.1\\share",
+  "usb_share_name": "share",
+  "local_test_file_dir": "test_files",
+  "test_file_set_version": "v1.0",
+  "test_files": "auto",
+  "interfaces": [
+    "1Gbps"
+  ],
+  "dut": {
+    "role": "auto",
+    "name": "auto",
+    "model": "auto",
+    "firmware_version": "auto",
+    "ip_address": "auto"
+  },
+  "client": {
+    "type": "",
+    "os": "",
+    "ip_address": ""
+  },
+  "usb_formats": [
+    "FAT32",
+    "NTFS",
+    "exFAT"
+  ],
+  "current_usb_format": "auto",
+  "test_all_configured_usb_formats": false,
+  "active_connection_type": "auto",
+  "skip_inactive_interfaces": true,
+  "iterations": 3,
+  "pass_threshold_mbps": 10,
+  "thresholds_mbps": {
+    "read": {
+      "wired": 12,
+      "wireless": 12
+    },
+    "write": {
+      "wired": 10,
+      "wireless": 10
+    }
+  },
+  "thresholds_by_file_mbps": {
+    "read": {
+      "wired": {
+        "1": 10,
+        "10": 25,
+        "50": 35,
+        "100": 40,
+        "500": 45
+      }
+    },
+    "write": {
+      "wired": {
+        "1": 8,
+        "10": 20,
+        "50": 28,
+        "100": 30,
+        "500": 32
+      }
+    }
+  },
+  "thresholds_note": "Example values only. Measure your own router and drive, then set pass lines you trust.",
+  "test_timeout_seconds": 60,
+  "band_settle_seconds": 5,
+  "output_path": "test_results",
+  "accumulate_results": true,
+  "prompt_for_missing_info": false,
+  "prompt_for_run_context": false,
+  "wireless_band_ssids": {},
+  "auto_switch_wireless_bands": false
+}

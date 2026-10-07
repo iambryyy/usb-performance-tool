@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+build/
+dist/
+*.spec
+
+# Local run data (created by the tool next to the program)
+test_config.json
+test_files/
+test_results/
+logs/
+sessions/
+readback/
+checkpoint.json
+stop_requested.flag
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+~$*.xlsx
+
+# Packaged build output and local run data under src/
+src/dist/
+src/build/
+.DS_Store
+.Rhistory
